@@ -6,9 +6,10 @@ function Start() {
   };
 
   return (
-    <div className="start-container max-w-xl rounded overflow-hidden shadow-lg m-auto">
-      <section className="font-semibold text-xl pt-20 mb-10">
-        This is a simple tic-tac-toe game with a twist! It's designed to be
+    <div className="start-container max-w-xl rounded overflow-hidden shadow-lg m-auto p-4 text-center">
+      <h1 className=" text-7xl font-bold mt-12 mb-12">Tic-Tac-Toe</h1>
+      <section className="font-semibold text-xl mb-10">
+        This is a classic tic-tac-toe game with a twist! It's designed to be
         inclusive and accessible to screen reader users.
         <p className="font-light text-sm italic mt-2 text-gray-300">
           Well at least I hope it stands up to its claim...
