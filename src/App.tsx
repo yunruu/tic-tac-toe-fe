@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Start from "./components/Start";
 
 function App() {
   return (
@@ -8,7 +9,9 @@ function App() {
         <strong>Tic Tac Toe</strong>
       </header>
       <main>
-        <div className="App-body"></div>
+        <div className="App-body">
+          <Start />
+        </div>
       </main>
     </div>
   );
